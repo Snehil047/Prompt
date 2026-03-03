@@ -9,21 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "formik": "latest",
+    "lucide-react": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "formik": "latest",
-    "lucide-react": "latest"
+    "tailwindcss": "^3.4.19"
   },
   "devDependencies": {
-    "typescript": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "tailwindcss": "latest",
-    "postcss": "latest",
-    "autoprefixer": "latest",
+    "autoprefixer": "^10.4.27",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "^8.5.8",
+    "typescript": "latest"
   }
 }
